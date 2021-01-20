@@ -42,7 +42,7 @@ def start():
         print("Logged in as: ", end="")
         print(client.user.name + " ", end="")
         print(client.user.id)
-        print("-------")
+        print("---------")
 
 
     load_dotenv(find_dotenv())
